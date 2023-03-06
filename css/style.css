@@ -42,7 +42,15 @@ label{
   padding: 5px;
 }
 
-#firstname
+#firstname{
+  color: #cc5200
+  text-align: center;
+  font-size: 16px;
+  padding: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
 #lastname
 #email
 #phone
