@@ -35,7 +35,6 @@ form{
 
 label{
   color: #cc5200;
-  text-align: center;
   display: block;
   font-size: 16px;
   padding-bottom: 5px;
@@ -47,7 +46,6 @@ input[type="email"],
 input[type="tel"],
 input[type="checkbox"]{
   color: #cc5200;
-  text-align: center;
   font-size: 16px;
   padding: 5px;
   width: 100%;
