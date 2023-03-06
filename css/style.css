@@ -12,7 +12,7 @@ h1{
   color: white;
   text-align: center;
   font-size: 48px;
-  padding-top: 8px
+  padding-top: 8px;
   padding: 16px;
 }
 
@@ -34,7 +34,7 @@ form{
 }
 
 label{
-  color: #cc5200
+  color: #cc5200;
   text-align: center;
   display: block;
   font-size: 16px;
@@ -46,7 +46,7 @@ input[type="text"],
 input[type="email"],
 input[type="tel"],
 input[type="checkbox"]{
-  color: #cc5200
+  color: #cc5200;
   text-align: center;
   font-size: 16px;
   padding: 5px;
@@ -55,7 +55,7 @@ input[type="checkbox"]{
 }
     
 #submit{
-  color: black
+  color: black;
   text-align: center;
   font-size: 16px;
   padding: 5px;
