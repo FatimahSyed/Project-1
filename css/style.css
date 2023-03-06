@@ -13,7 +13,7 @@ h1{
   text-align: center;
   font-size: 48px;
   padding-top: 8px
-  padding: 8px;
+  padding: 16px;
 }
 
 p{
@@ -69,3 +69,19 @@ input[type=submit]:hover {
   background-color: #cc5200;	
 }
 
+@media screen and (min-width: 800px) {
+    h1{
+        font-size: 32px;
+    }
+    body{
+        background-image: url(../images/amazon.jpg)
+    }
+}
+@media screen and (min-width: 1200px) {
+    h1{
+        font-size: 48px;
+    }
+    body{
+        background-image: url(../images/amazon.jpg)
+    }
+}
