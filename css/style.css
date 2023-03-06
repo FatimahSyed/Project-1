@@ -1,1 +1,53 @@
+body{
+  background-image: url(../images/amazon.jpg);
+  font-family: Arial, sans-serif;
+}
+
+h1{
+  background-color: #cc5200;
+  color: white;
+  text-align: center;
+  font-size: 48px;
+  padding: 8px;
+}
+
+p{
+  background-color: #cc5200;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  padding-bottom: 16px;
+}
+
+form{
+  background-color: white;
+  width: auto;
+  margin-right: 20%;
+  margin-left: 20%;
+  margin-top: 5%;
+  padding: 10px;
+}
+
+label{
+  color: #cc5200
+  text-align: center;
+  display: block;
+  font-size: 16px;
+  padding-bottom: 5px;
+  padding: 5px;
+}
+
+#submit{
+  color: black
+  text-align: center;
+  font-size: 16px;
+  padding: 5px;
+  width: 100%;
+  box-sizing: border-box;
+
+}
+
+input[type=submit]:hover {
+  background-color: #cc5200;	
+}
 
