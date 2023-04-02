@@ -4,17 +4,9 @@ jQuery(function($) {
   $('html').addClass('hasjs');
 });
 
-// Get the form element
-const form = document.querySelector('form');
+// Function to display message after submit
+function sayCode() {
+   alert("Thank you for filling out the form! Please check your email for any job updates!");
+}
 
-form.addEventListener('submit', (event) => {
-  event.preventDefault();
-
-  // Display message
-  const message = document.createElement('p');
-  message.textContent = `Thank you for filling out the form! Please check your email for any updates!`;
-  form.parentNode.insertBefore(message, form.nextSibling);
-  
-  form.reset();
-});
-
+document.getElementById("submit").onclick = sayCode;
